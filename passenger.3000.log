@@ -1,0 +1,12 @@
+[ 2016-06-25 16:42:33.7713 1201/0x7fff78428000 age/Wat/WatchdogMain.cpp:1301 ]: Starting Passenger watchdog...
+[ 2016-06-25 16:42:33.7971 1203/0x7fff78428000 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-06-25 16:42:33.7979 1203/0x7fff78428000 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-06-25 16:42:33.8140 1203/0x7fff78428000 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 1203
+[ 2016-06-25 16:42:33.8233 1205/0x7fff78428000 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-06-25 16:42:33.8268 1205/0x7fff78428000 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 1205
+App 1217 stdout: 
+App 1217 stdout: => Started proxy.
+App 1217 stdout: => Started MongoDB.
+App 1217 stdout: => Started your app.
+App 1217 stdout: 
+App 1217 stdout: => App running at: http://localhost:2806/
