@@ -1,10 +1,12 @@
-<body>
-  <h1>Welcome to Meteor!</h1>
+<template name="mainLayout">
+  {{> Template.dynamic template=login}}
+  {{> Template.dynamic template=content}}
+</template>
 
-  {{> hello}}
-</body>
+<template name="login">
+  {{> loginButtons}}
+</template>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="main">
+  <p>Main page</p>
 </template>
