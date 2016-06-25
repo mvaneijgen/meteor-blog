@@ -1,4 +1,1 @@
 local
-
-#ignore some files created by phusion passenger
-/passenger.3000*

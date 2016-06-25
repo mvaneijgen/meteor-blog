@@ -1,1 +1,6 @@
 node_modules/
+
+#ignore some files created by phusion passenger
+passenger.3000.log
+passenger.3000.pid
+passenger.3000.pid.lock
