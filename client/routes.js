@@ -7,8 +7,7 @@ exposed.route('/', {
     name: 'home',
     action: function () {
         BlazeLayout.render('mainLayout', {
-          content: 'main',
-          login: 'login'
+          content: 'main'
         });
     }
 });

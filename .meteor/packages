@@ -20,17 +20,14 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 # autopublish             # Publish all data to the clients (for prototyping)
 # insecure                # Allow all DB writes from clients (for prototyping)
 
-# a blog
-# ryw:blog
-# xolvio:md-blog
-
-# router
 kadira:flow-router
 kadira:blaze-layout
 
-# check your inserts in mongo
 meteortoys:allthings
 
-accounts-ui
 accounts-password
+ian:accounts-ui-bootstrap-3
+
 check
+
+twbs:bootstrap
