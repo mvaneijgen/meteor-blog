@@ -1,6 +1,6 @@
 Hi and welcome to my meteor-blog repo.
 This repo is a kind of sandbox where I'll be experimenting meteor.
-The idea here is to create a blog in meteor.
+The idea here is to create a blog in Meteor.
 
 You can check the progress on the blog [here](https://melwynt.github.io/meteor-blog/).
 
