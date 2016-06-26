@@ -31,3 +31,6 @@ ian:accounts-ui-bootstrap-3
 check
 
 twbs:bootstrap
+
+session
+gwendall:auth-client-callbacks
