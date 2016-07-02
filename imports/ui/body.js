@@ -7,6 +7,10 @@ import '../api/posts/methods.js';
 
 import './body.html';
 
+Template.main.onCreated(function bodyOnCreated() {
+  Meteor.subscribe('posts');
+});
+
 // Template.hello.onCreated(function helloOnCreated() {
 //   // counter starts at 0
 //   this.counter = new ReactiveVar(0);
