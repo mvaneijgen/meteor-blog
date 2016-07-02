@@ -17,20 +17,19 @@ standard-minifier-js    # JS minifier run for production mode
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 
+accounts-password
+twbs:bootstrap
+ian:accounts-ui-bootstrap-3
+session
+gwendall:auth-client-callbacks
+
 # autopublish             # Publish all data to the clients (for prototyping)
 # insecure                # Allow all DB writes from clients (for prototyping)
 
-kadira:flow-router
-kadira:blaze-layout
-
+aldeed:collection2
+aldeed:autoform
+mdg:validated-method
 meteortoys:allthings
 
-accounts-password
-ian:accounts-ui-bootstrap-3
-
-check
-
-twbs:bootstrap
-
-session
-gwendall:auth-client-callbacks
+kadira:flow-router
+kadira:blaze-layout

@@ -1,6 +1,10 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 
+import { Posts } from '../api/posts/posts.js';
+
+import '../api/posts/methods.js';
+
 import './body.html';
 
 // Template.hello.onCreated(function helloOnCreated() {
