@@ -6,16 +6,19 @@ var exposed = FlowRouter.group({
 exposed.route('/', {
     name: 'home',
     action: function () {
-        BlazeLayout.render('mainLayout', {
-          content: 'main'
-        });
+      import '../imports/ui/mainLayout.js'; // nested import
+      import '../imports/ui/main.js'; // nested import
+      BlazeLayout.render('mainLayout', {
+        content: 'main'
+      });
     }
 });
 
 exposed.route('/login', {
     name: 'login',
     action: function () {
-        BlazeLayout.render('loginLayout');
+      import '../imports/ui/loginLayout.js'; // nested import
+      BlazeLayout.render('loginLayout');
     }
 });
 
@@ -39,11 +42,13 @@ var loggedIn = FlowRouter.group({
 });
 
 loggedIn.route('/admin', {
-    name: 'main',
+    name: 'admin',
     action: function () {
-        BlazeLayout.render('mainLayout', {
-          content: 'admin',
-        });
+      import '../imports/ui/mainLayout.js'; // nested import
+      import '../imports/ui/admin.js'; // nested import
+      BlazeLayout.render('mainLayout', {
+        content: 'admin',
+      });
     }
 });
 
