@@ -43,6 +43,7 @@ DEPENDENCIES
   jekyll-paginate
   kramdown
   pygments.rb
+  rouge
 
 BUNDLED WITH
    1.12.5

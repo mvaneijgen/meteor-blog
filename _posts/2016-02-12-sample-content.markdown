@@ -46,7 +46,8 @@ The 2nd package adds client-side onLogin and onLogout callbacks.
 So I discovered this week that `new Mongo.Collection` will not create a MongoDB collection automatically ([source](http://stackoverflow.com/a/37847071)).<br>
 When I tried this code in `/server/main.js`:<br>
 
-```javascript
+``` js
+
 Meteor.startup(() => {
   // code to run on server at startup
   if (!Posts.findOne()){// no post yet!
@@ -60,7 +61,7 @@ Meteor.startup(() => {
 
 I had this error message:<br>
 
-```
+```js
 ReferenceError: Posts is not defined
 ```
 
